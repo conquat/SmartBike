@@ -81,5 +81,5 @@ On the main board we have three MOSFET to manage the power supply to LORA module
 ![](./imgs/Schematic_Piezo_amplifier.png)
 
 ## DEMO
-[video]()
-[presentation]()
+[video](https://drive.google.com/file/d/1FXAfXiOB0nytEcI82TCNlNHBDIsdtGyu/view?usp=share_link)
+[presentation](https://docs.google.com/presentation/d/12XpArm8RXbR7QQe693yCl9IjpECqP92zorBawpiJ0go/edit?usp=sharing)
