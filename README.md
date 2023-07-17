@@ -75,10 +75,10 @@ On the main board we have three MOSFET to manage the power supply to LORA module
 ## Schematics of main components
 
 ### Main board
-![](./imgs/Schematic_MainBoard.pdf)
+![](./imgs/Schematic_MainBoard.png)
 
 ### Piezoelectric sensor
-![](./imgs/Schematic_Piezo%20amplifier.pdf)
+![](./imgs/Schematic_Piezo_amplifier.png)
 
 ## DEMO
 [video]()
