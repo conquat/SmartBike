@@ -35,14 +35,25 @@ At startup, the microcontroller checks the key state and initializes the FSM in 
 - Arduino Uno
 
 ### Software requiremets - Arduino libraries
-- {EByte LoRa E220 library}(https://github.com/xreef/EByte_LoRa_E220_Series_Library)
-- {ArduinoJson}(https://github.com/bblanchon/ArduinoJson)
-- {MCUFRIEND_kbv}(https://github.com/prenticedavid/MCUFRIEND_kbv)
-- {UniversalTelegramBot}(https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot)
+- [EByte LoRa E220 library](https://github.com/xreef/EByte_LoRa_E220_Series_Library)
+- [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+- [MCUFRIEND_kbv](https://github.com/prenticedavid/MCUFRIEND_kbv)
+- [UniversalTelegramBot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot)
 
 
 ## Project structure
-
+```
+├── BikeSimulator
+│   └── BikeSimulator.ino        # script to run the bike simulator (for Arduino)
+├── LORA-TelegramBridge
+│   └── LORA-TelegramBridge.ino  # script to use Telegram bot (for ESP32)
+├── LORAConfiguration
+│   └── LORAConfiguration.ino    # script to configure LoRa modules
+├── MainBoard
+│   └── MainBoard.ino            # script to manage the movement sensor, the bike sensors and the LCD
+└── Screen
+    └── Screen.ino               # script to display the image on the LCD screen
+```
 
 ## Getting started
 In order to get the project running, you need to download the code and install the libraries.
@@ -68,3 +79,7 @@ On the main board we have three MOSFET to manage the power supply to LORA module
 
 ### Piezoelectric sensor
 ![](./imgs/Schematic_Piezo%20amplifier.pdf)
+
+## DEMO
+[video]()
+[presentation]()
